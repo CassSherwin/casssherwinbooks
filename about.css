@@ -1,24 +1,13 @@
+
 body, html {
  background-color: #212121;
- top:0px;
-    right:0px;
-    bottom:0px;
-    left:0px;
-    margin: 0px;
-    padding-top: 5vh;
-    overflow: scroll;
-   position: relative;
-   min-width:900px;
+ padding-top: 5vh;
+ margin-left: 0px;
+ width: 100%;
+ overflow: auto;
 }
-.aboutbod {
-   position: fixed;
-   overflow: scroll;
-    top:0px;
-    right:0px;
-    bottom:0px;
-    left:0px;
-    overflow-x: visible;
-}
+
+
 .book {
     position: relative;
     display: block;
@@ -59,6 +48,8 @@ body, html {
 	  transform-style:preserve-3d;
 	  transform-origin:left;
 	  transition: all .6s;
+     
+      overflow: auto;
   
 	}
 
@@ -82,8 +73,10 @@ body, html {
 	}
 
 	.front  {
-      
+        overflow: scroll;
       background: #44318D;
+      width: 100%;
+      overflow: auto;
 	}
 
 	.back  {
@@ -91,16 +84,14 @@ body, html {
         border: 2px solid #2A1B3D;
 	  transform: rotateY(180deg);
       width: 100%;
-      max-width: 100%;
-     height: auto;
-     
+      overflow: auto;
 
      
 	}
 
 	.content {
 	  position: absolute;
-	overflow: scroll;
+	overflow: auto;
 	  font-size:22px;
 	  left:5%;
 	  display:flex;
@@ -110,16 +101,14 @@ body, html {
 	}
     .rel {
     
-        width: 80%;
+        width: 95%;
         height:90%;
         align-items:center;
         justify-content:center;
         padding-top: 15px;
         position: relative;
         display: block;
-	  width: 380px;
-	  height: 550px;
-	  left:40px;
+	  left:55px;
       
        
     }
@@ -145,7 +134,7 @@ body, html {
     color: rgb(128, 123, 123);
     text-align: center;
     padding-top: 5vh;
-    width: 85%;
+    width: 70%;
     }
     .rel h5 {
         display: inline-block;
@@ -162,7 +151,84 @@ body, html {
         font-size: 40px;
     }
 
-    @media screen and (orientation:portrait) {
-
-     
-    }
+    @media screen and (max-width: 767px) {
+        .book {
+            height: 570px;
+            width: 280px;
+            
+            
+          
+        
+            }
+        
+            .cover  {
+                height: 570px;
+              width: 260px;
+           
+            
+          
+            }
+            .content, .rel {
+                overflow: visible;
+               }
+               .rel h5 {
+               
+                font-size: 18px;
+               }
+               .rel h4 {
+                
+                font-size: 18px;
+           
+                
+            }
+        
+            .rel p {
+               
+            font-size: 12px;
+            }
+            .links {
+                font-size: 18px;
+            }
+        
+        }
+        
+        @media screen and (max-width: 479px) {
+            .book {
+           
+                width: 210px;
+                height: 570px;
+                 
+            
+                }
+            
+                .cover  {
+                  
+                  width: 190px;
+                  height: 570px;
+                 
+                 
+              
+                }
+        
+               .content, .rel {
+                overflow: visible;
+               }
+               .rel h5 {
+               
+                font-size: 18px;
+               }
+               .rel h4 {
+                
+                font-size: 18px;
+           
+                
+            }
+        
+            .rel p {
+               
+            font-size: 12px;
+            }
+            .links {
+                font-size: 18px;
+            }
+        }
