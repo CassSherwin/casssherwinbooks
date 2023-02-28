@@ -1,0 +1,143 @@
+body, html {
+ background-color: #212121;
+    display: border-box;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding-top: 5vh;
+}
+.book {
+    position: relative;
+    display: block;
+    width: 400px;
+    height: 550px;
+	  background: wheat;
+	  margin-top: 15vh;
+	  margin-left: 37vw;
+	  perspective: 1000px;
+	  color:#fff;
+      position: relative;
+    display: block;
+    width: 400px;
+    height: 550px;
+    margin: 5% auto;
+    border-radius: 2px 4px 4px 2px;
+    background: linear-gradient(45deg,  #DAD5DC 0%, #f2ebf4 100%);
+    font-family: acumin-pro, sans-serif;
+    -webkit-box-shadow: 13px 13px 8px 0px rgba(151, 146, 153,0.6);
+  -moz-box-shadow: 13px 13px 8px 0px rgba(151, 146, 153,0.6);
+  box-shadow: 13px 13px 8px 0px rgba(151, 146, 153,0.6);
+    font-weight: 400;
+    color: #2b2b2b;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    -webkit-transition: -webkit-transform .5s;
+    -moz-transition: -moz-transform .5s;
+    transition: transform .5s;
+
+	}
+
+	.cover  {
+        position: relative;
+        display: block;
+	  width: 380px;
+	  height: 550px;
+	  left:40px;
+	  position: relative;
+	  transform: rotateY(-20deg) ;
+	  transform-style:preserve-3d;
+	  transform-origin:left;
+	  transition: all .6s;
+	}
+
+	.book:hover .cover {
+	  transform: rotateY(-180deg) ;
+	}
+
+	figure {
+	  margin: 0;
+	  position: absolute;
+	  width: 100%;
+	  height: 100%;
+	  backface-visibility:hidden;
+	  font-size:32px;
+	  display:flex;
+	  align-items:center;
+	  justify-content:center;
+	}
+
+	.front  {
+	  
+      background: #44318D;
+	}
+
+	.back  {
+        background: #44318D;
+        border: 2px solid #2A1B3D;
+	  transform: rotateY(180deg);
+	}
+
+	.content {
+	  position: absolute;
+	  height: 100%;
+	  width: 100%;
+	  font-size:22px;
+	  left:5%;
+	  display:flex;
+	  align-items:center;
+	  justify-content:center;
+	}
+    .rel {
+    
+        width: 80%;
+        height:90%;
+        align-items:center;
+        justify-content:center;
+       
+        position: relative;
+        display: block;
+	  width: 380px;
+	  height: 550px;
+	  left:40px;
+     
+       
+    }
+   
+    .rel h4 {
+        display: inline-block;
+        text-align: center;
+        width: 80%;
+        font-size: 19px;
+        font-family: 'Quicksand', sans-serif;
+        
+    }
+
+    .rel p {
+        display: inline-block;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+    height: 24px;
+    line-height: 24px;
+  
+    color: rgb(128, 123, 123);
+    text-align: center;
+    padding-top: 5vh;
+    width: 85%;
+    }
+    .rel h5 {
+        display: inline-block;
+        font-size: 20px;
+        font-family: 'Quicksand', sans-serif;
+        padding-top: 85px;
+        text-align: center;
+        width: 80%;
+       
+      
+    }
+    h1 {
+        font-weight: bold;
+        font-size: 40px;
+    }

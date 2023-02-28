@@ -1,0 +1,70 @@
+
+
+body {
+        background-image: url("timon-studler-S4yb515qKX4-unsplash.jpg");
+        width: 100%;
+        height: 100%; 
+        background-size: 100% 100%;
+        background-repeat: no-repeat;   
+        font-family: 'Kiwi Maru', serif;
+        background-color: #606060;
+     
+    }
+    .mommiebody {
+        width: 100%;
+        height: 100%; 
+        background-size: 100% 100%;
+        background-repeat: no-repeat;   
+        background-color: #606060;
+
+    }
+    .mommiediv {
+        background-image: url("pics/MZCOVER.jpg");
+        width: 100%;
+        height: 100%; 
+        background-size: 100% 100%;
+        background-repeat: no-repeat; 
+
+    }
+    .indexbody {
+        width: 100%;
+        height: 100%; 
+        background-color: pink;
+
+    }
+    .navbar-start {
+        margin-left: 45%;
+
+    }
+         
+   
+    
+ 
+    .hrunderline {
+        color: red;
+        height: 1px;
+        }
+
+    header {
+        color: #C00000;
+        padding-top: 2%;
+        font-family: 'Kiwi Maru', serif;
+    }
+    .maindiv{
+        margin-top: 48vh;
+        color: #C00000;
+        font-family: 'Kiwi Maru', serif;
+    }
+    .coming {
+        padding-top:13%;
+    }
+    hr {
+        border-color: #800000;
+       
+        width: 80%;
+    }
+    .maindiv > h1 {
+        text-shadow: 2px 2px #606060;
+
+    }
+
