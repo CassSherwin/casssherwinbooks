@@ -313,11 +313,21 @@ p span {
 	p {
 		font-size: 14pt;
 	}
+	.content h3 {
+		visibility: hidden;
+	}
+	.content h2 {
+		font-size: 2.5vh;
+		font-weight: 300;
+		color: #35312b;
+		text-shadow: 0.3px 0.3px 2px Sienna;
+		
+	}
 }
 
 @media screen and (max-width: 767px) {
 	.content h2 {
-		font-size: 2.5vh;
+		font-size: 2.75vh;
 		font-weight: 300;
 		color: #35312b;
 		text-shadow: 0.3px 0.3px 2px Sienna;
@@ -331,11 +341,14 @@ p span {
 	
 	@media screen and (max-width: 479px) {
 		.content h2 {
-			font-size: 2vh;
+			font-size: 2.5vh;
 			font-weight: 300;
 			color: #35312b;
 			text-shadow: 0.3px 0.3px 2px Sienna;
 			
+		}
+		.content h3 {
+			visibility: hidden;
 		}
 		
 			
