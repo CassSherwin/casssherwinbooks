@@ -1,7 +1,7 @@
 html, body{
     background-color: #212121;
     display: border-box;
-    padding-top: 5vh;
+    padding-top: 2px;
   }
   
   .container {
@@ -227,5 +227,5 @@ font-weight: bolder;
 
 .navbar-toggler {
   background-color: greenyellow;
- 
+  width: 2vw;
 }

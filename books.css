@@ -10,7 +10,7 @@ body {
 
 :root {
   --mobile-width: 325px;
-  --mobile-height: 670px;
+  --mobile-height: 800px;
   --mobile-radius: 25px;
   --separator-height: 500px;
   --bg: #272727;
@@ -21,7 +21,7 @@ body {
 }
 
 .containers {
-  min-height: 50vh;
+  min-height: 70vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -109,7 +109,7 @@ body {
   transform: rotateX(180deg);
 }
 .mobile-layout .preface {
-  height: var(--separator-height);
+  height: var(700px);
   padding: 40px;
   transition: var(--transition);
   background: white;
@@ -141,7 +141,20 @@ body {
 .mobile-layout .preface .body p:first-child {
   margin-bottom: 15px;
 }
+.mobile-layout .preface .body p {
 
+  font-size: 15px;
+}
+.mobile-layout .preface .content {
+  height: auto;
+}
+.mobile-layout .preface2 {
+  height: var(--separator-height);
+  padding: 40px;
+  transition: var(--transition);
+  background: white;
+  padding-top: 10px;
+}
 .preface .test {
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
@@ -178,9 +191,10 @@ body {
   color: rgb(54, 54, 54);
   display: block;
   font-family: Quicksand, sans-serif;
-  font-size: 3vh;
+  margin-left: 2vw;
   font-weight: 600;
-  height: 58px;
+
+
 }
 
 .btn:hover {
@@ -195,7 +209,16 @@ body {
 
 .navbar-toggler {
   background-color: #747474;
+  width: 3vw;
+ 
+
 }
+
+.navbar-toggler-icon {
+ 
+
+}
+
 
 .links {
   color: #FF4545;
